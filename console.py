@@ -18,4 +18,5 @@ user_repository.select_all()
 task = Task("Walk Dog", user1, 60)
 task_repository.save(task)
 
+print(user_repository.select_all())
 pdb.set_trace()
